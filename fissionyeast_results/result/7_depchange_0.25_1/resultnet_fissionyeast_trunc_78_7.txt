@@ -1,0 +1,13 @@
+targets, factors
+Start, (Ste9 & !Rum1)
+SK, ((Ste9 | !Rum1) & Start)
+Cdc2_Cdc13, (!Ste9 & !Rum1 & !Slp1)
+Ste9, ((Ste9 & !SK & PP & !Cdc2_Cdc13) | (Ste9 & !SK & PP & !Cdc2_Cdc13A) | (Ste9 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Ste9 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Rum1, ((PP & !SK) | (Rum1 & !Cdc2_Cdc13A & !SK) | (Rum1 & !SK & !Cdc2_Cdc13A) | (Rum1 & !Cdc2_Cdc13A & Cdc2_Cdc13) | (!Cdc2_Cdc13A & !SK & Rum1))
+Slp1, Cdc2_Cdc13A
+Cdc2_Cdc13A, (!Wee1_Mik1 & Cdc25 & !Rum1 & !Ste9 & !Slp1)
+Wee1_Mik1, ((Wee1_Mik1 & !Cdc2_Cdc13) | ((PP | Wee1_Mik1) & !Cdc2_Cdc13))
+Cdc25, (Cdc2_Cdc13 | ((!Wee1_Mik1 | (Cdc2_Cdc13 & !PP)) & !PP))
+PP, Slp1
+
+

@@ -1,0 +1,175 @@
+Examined networks:
+  [1]   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28
+ [29]  29  30  31  32  33  34  35  36  37  38  39  40  41  42  43  44  45  46  47  48  49  50  51  52  53  54  55  56
+ [57]  57  58  59  60  61  62  63  64  65  66  67  68  69  70  71  72  73  74  75  76  77  78  79  80  81  82  83  84
+ [85]  85  86  87  88  89  90  91  92  93  94  95  96  97  98  99 100
+Changes in mutated networks:
+
+Number of dependencies in the original network:
+[1] 28
+
+Mean number of dependencies in networks:
+[1] 25.2
+
+Number of dependency modifications in networks:
+
+ 3  4  5 
+ 7  7 86 
+
+Number of inserted dependencies in networks:
+
+ 0  1  2  3  4  5 
+32 45 15  6  1  1 
+
+Number of removed dependencies in networks:
+
+ 0  1  2  3  4  5 
+ 1  1  8 24 42 24 
+
+Insertions (columns: genes, rows: insertions)
+            Start SK Cdc2_Cdc13 Ste9 Rum1 Slp1 Cdc2_Cdc13A Wee1_Mik1 Cdc25 PP
+Start           1  0          1    2    3    2           1         0     0  3
+SK              0  3          1    0    0    1           4         1     0  2
+Cdc2_Cdc13      0  1          3    0    0    0           2         0     0  0
+Ste9            1  1          0    0    4    2           0         2     0  1
+Rum1            0  3          0    1    0    2           0         2     2  5
+Slp1            1  1          0    1    2    0           0         1     0  0
+Cdc2_Cdc13A     1  2          1    0    0    0           1         2     2  1
+Wee1_Mik1       0  1          1    1    2    2           0         0     1  0
+Cdc25           1  1          1    3    1    2           0         1     0  2
+PP              1  0          1    0    0    3           3         0     0  1
+
+Deletions (columns: genes, rows: deletions)
+            Start SK Cdc2_Cdc13 Ste9 Rum1 Slp1 Cdc2_Cdc13A Wee1_Mik1 Cdc25 PP
+Start           0  1          0    0    0    0           0         0     0  0
+SK              0  0          0    9    8    0           0         0     0  0
+Cdc2_Cdc13      0  0          0    8   10    0           0        23    44  0
+Ste9            0  0         26   12    0    0          11         0     0  0
+Rum1            0  0         17    0   15    0           9         0     0  0
+Slp1            0  0         18    0    0    0          15         0     0  2
+Cdc2_Cdc13A     0  0          0    9   10    1           0         0     0  0
+Wee1_Mik1       0  0          0    0    0    0          10        19     0  0
+Cdc25           0  0          0    0    0    0          13         0    34  0
+PP              0  0          0   14   10    0           0        21     8  0
+
+Function classes in the original model:
+NULL
+
+Function classes in the networks:
+numeric(0)
+Networks that could not be reconstructed:
+[1]  98 100
+Number of networks that could not be reconstructed:
+[1] 2
+Networks matching the conditions:
+0/825
+Average number of candidates (matching conditions exactly):
+[1] 0
+Average number of candidates (all):
+[1] 8.418367
+Changes in repaired networks:
+Number of networks with equal attractors: 78/825
+Number of networks with equal transition tables: 3/825
+
+Number of dependencies in the original network:
+[1] 28
+
+Mean number of dependencies in networks:
+[1] 28.04364
+
+Number of dependency modifications in networks:
+
+    0     1     2     3     4     5     6     7     8     9    10    12    13 
+ 1.94  8.00 13.21 23.88 20.36 17.94  7.03  4.73  1.58  0.24  0.36  0.12  0.61 
+
+Number of inserted dependencies in networks:
+
+    0     1     2     3     4     5     6     7     9    10 
+14.42 26.67 29.33 17.58  7.52  0.85  2.67  0.24  0.12  0.61 
+
+Number of removed dependencies in networks:
+
+    0     1     2     3     4     5 
+ 9.21 30.55 33.45 22.18  4.00  0.61 
+
+Insertions (columns: genes, rows: insertions)
+            Start   SK Cdc2_Cdc13 Ste9  Rum1 Slp1 Cdc2_Cdc13A Wee1_Mik1 Cdc25   PP
+Start        4.48 0.00       0.61 4.97  4.97 2.18        0.61      0.00  0.00 4.36
+SK           2.42 1.70       2.67 0.00  0.00 0.00        4.36      1.33  0.00 2.42
+Cdc2_Cdc13   0.00 1.33       2.42 0.00  0.00 0.12        2.30      0.00  0.00 0.36
+Ste9         4.00 1.09       0.00 0.00 14.79 0.00        0.00      2.55  0.85 0.00
+Rum1         2.67 2.67       0.00 9.21  0.00 0.00        0.00      1.94  3.39 3.64
+Slp1         1.82 0.73       0.00 3.15  2.42 0.00        0.00      4.36  9.33 0.00
+Cdc2_Cdc13A  2.30 1.21       0.97 0.00  0.00 0.00        0.00      7.27  9.58 0.00
+Wee1_Mik1    3.88 0.00       1.33 1.58  2.06 0.00        0.00      0.00 17.58 0.00
+Cdc25        4.36 0.97       0.97 5.45  2.06 0.00        0.00     10.42  0.00 1.82
+PP           2.55 0.24       0.73 0.00  0.00 1.33        6.30      0.00  0.00 0.00
+
+Deletions (columns: genes, rows: deletions)
+            Start SK Cdc2_Cdc13  Ste9 Rum1 Slp1 Cdc2_Cdc13A Wee1_Mik1 Cdc25 PP
+Start           0  0       0.00  0.00 0.00    0        0.00      0.00  0.00  0
+SK              0  0       0.00  3.76 3.03    0        0.00      0.00  0.00  0
+Cdc2_Cdc13      0  0       0.00  5.94 5.82    0        0.00      4.48  7.15  0
+Ste9            0  0      22.06  5.94 0.00    0       12.00      0.00  0.00  0
+Rum1            0  0      19.03  0.00 6.67    0        7.88      0.00  0.00  0
+Slp1            0  0       0.00  0.00 0.00    0        0.00      0.00  0.00  0
+Cdc2_Cdc13A     0  0       0.00 10.67 7.88    0        0.00      0.00  0.00  0
+Wee1_Mik1       0  0       0.00  0.00 0.00    0        9.70     14.06  0.00  0
+Cdc25           0  0       0.00  0.00 0.00    0       11.39      0.00 23.52  0
+PP              0  0       0.00  0.36 0.00    0        0.00      1.09  0.61  0
+
+Function classes in the original model:
+NULL
+
+Function classes in the networks:
+numeric(0)
+   Always Partially No change  Deletion 
+        6        18         0         3 
+Deletions:
+\begin{footnotesize}
+\begin{tabularx}{\linewidth}{|l|AB|AB|AB|AB|AB|AB|AB|AB|AB|AB|}\hline
+  & \multicolumn{2}{c|}{Start}  & \multicolumn{2}{c|}{SK}  & \multicolumn{2}{c|}{Cdc2\_Cdc13}  & \multicolumn{2}{c|}{Ste9}  & \multicolumn{2}{c|}{Rum1}  & \multicolumn{2}{c|}{Slp1}  & \multicolumn{2}{c|}{Cdc2\_Cdc13A}  & \multicolumn{2}{c|}{Wee1\_Mik1}  & \multicolumn{2}{c|}{Cdc25}  & \multicolumn{2}{c|}{PP}\\\hline
+Start & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0\\\hline
+SK & \cellcolor{darkgreen} 1.0 & \cellcolor{darkgreen} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0\\\hline
+Cdc2\_Cdc13 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 26.0 & \cellcolor{green} 22.1 & \cellcolor{red} 17.0 & \cellcolor{red} 19.0 & \cellcolor{darkgreen} 18.0 & \cellcolor{darkgreen} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0\\\hline
+Ste9 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 9.0 & \cellcolor{green} 3.8 & \cellcolor{green} 8.0 & \cellcolor{green} 5.9 & \cellcolor{green} 12.0 & \cellcolor{green} 5.9 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{red} 9.0 & \cellcolor{red} 10.7 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 14.0 & \cellcolor{green} 0.4\\\hline
+Rum1 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 8.0 & \cellcolor{green} 3.0 & \cellcolor{green} 10.0 & \cellcolor{green} 5.8 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 15.0 & \cellcolor{green} 6.7 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 10.0 & \cellcolor{green} 7.9 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{darkgreen} 10.0 & \cellcolor{darkgreen} 0.0\\\hline
+Slp1 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{darkgreen} 1.0 & \cellcolor{darkgreen} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0\\\hline
+Cdc2\_Cdc13A & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{red} 11.0 & \cellcolor{red} 12.0 & \cellcolor{green} 9.0 & \cellcolor{green} 7.9 & \cellcolor{darkgreen} 15.0 & \cellcolor{darkgreen} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 10.0 & \cellcolor{green} 9.7 & \cellcolor{green} 13.0 & \cellcolor{green} 11.4 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0\\\hline
+Wee1\_Mik1 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 23.0 & \cellcolor{green} 4.5 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 19.0 & \cellcolor{green} 14.1 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 21.0 & \cellcolor{green} 1.1\\\hline
+Cdc25 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 44.0 & \cellcolor{green} 7.2 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{green} 34.0 & \cellcolor{green} 23.5 & \cellcolor{green} 8.0 & \cellcolor{green} 0.6\\\hline
+PP & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{darkgreen} 2.0 & \cellcolor{darkgreen} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0 & \cellcolor{cyan} 0.0\\\hline
+\end{tabularx}
+\end{footnotesize}
+Insertions:
+\begin{footnotesize}
+\begin{tabularx}{\linewidth}{|l|AB|AB|AB|AB|AB|AB|AB|AB|AB|AB|}\hline
+  & \multicolumn{2}{c|}{Start}  & \multicolumn{2}{c|}{SK}  & \multicolumn{2}{c|}{Cdc2\_Cdc13}  & \multicolumn{2}{c|}{Ste9}  & \multicolumn{2}{c|}{Rum1}  & \multicolumn{2}{c|}{Slp1}  & \multicolumn{2}{c|}{Cdc2\_Cdc13A}  & \multicolumn{2}{c|}{Wee1\_Mik1}  & \multicolumn{2}{c|}{Cdc25}  & \multicolumn{2}{c|}{PP}\\\hline
+Start & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 4.5 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 2.4 & 0.0 & 0.0 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 4.0 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 2.7 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.8 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 2.3 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 3.9 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 4.4 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 2.5\\\hline
+SK & 0.0 & 0.0 & \cellcolor{YellowGreen} 3.0 & \cellcolor{YellowGreen} 1.7 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.3 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.1 & \cellcolor{YellowGreen} 3.0 & \cellcolor{YellowGreen} 2.7 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 0.7 & \cellcolor{YellowGreen} 2.0 & \cellcolor{YellowGreen} 1.2 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 0.2\\\hline
+Cdc2\_Cdc13 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 0.6 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 2.7 & \cellcolor{YellowGreen} 3.0 & \cellcolor{YellowGreen} 2.4 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.3 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 0.7\\\hline
+Ste9 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 5.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 9.2 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 3.1 & 0.0 & 0.0 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.6 & \cellcolor{RedOrange} 3.0 & \cellcolor{RedOrange} 5.5 & 0.0 & 0.0\\\hline
+Rum1 & \cellcolor{RedOrange} 3.0 & \cellcolor{RedOrange} 5.0 & 0.0 & 0.0 & 0.0 & 0.0 & \cellcolor{RedOrange} 4.0 & \cellcolor{RedOrange} 14.8 & 0.0 & 0.0 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.4 & 0.0 & 0.0 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.1 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 2.1 & 0.0 & 0.0\\\hline
+Slp1 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.2 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 0.1 & \cellcolor{green} 2.0 & \cellcolor{green} 0.0 & \cellcolor{green} 2.0 & \cellcolor{green} 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & \cellcolor{green} 2.0 & \cellcolor{green} 0.0 & \cellcolor{green} 2.0 & \cellcolor{green} 0.0 & \cellcolor{YellowGreen} 3.0 & \cellcolor{YellowGreen} 1.3\\\hline
+Cdc2\_Cdc13A & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 0.6 & \cellcolor{RedOrange} 4.0 & \cellcolor{RedOrange} 4.4 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.3 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & \cellcolor{RedOrange} 3.0 & \cellcolor{RedOrange} 6.3\\\hline
+Wee1\_Mik1 & 0.0 & 0.0 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.3 & 0.0 & 0.0 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.5 & \cellcolor{YellowGreen} 2.0 & \cellcolor{YellowGreen} 1.9 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 4.4 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 7.3 & 0.0 & 0.0 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 10.4 & 0.0 & 0.0\\\hline
+Cdc25 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 0.8 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 3.4 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 9.3 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 9.6 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 17.6 & 0.0 & 0.0 & 0.0 & 0.0\\\hline
+PP & \cellcolor{RedOrange} 3.0 & \cellcolor{RedOrange} 4.4 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.4 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 0.4 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0 & \cellcolor{YellowGreen} 5.0 & \cellcolor{YellowGreen} 3.6 & 0.0 & 0.0 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0 & 0.0 & 0.0 & \cellcolor{YellowGreen} 2.0 & \cellcolor{YellowGreen} 1.8 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0\\\hline
+\end{tabularx}
+\end{footnotesize}
+Overall:
+\begin{footnotesize}
+\begin{tabularx}{\linewidth}{|l|AB|AB|AB|AB|AB|AB|AB|AB|AB|AB|}\hline
+  & \multicolumn{2}{c|}{Start}  & \multicolumn{2}{c|}{SK}  & \multicolumn{2}{c|}{Cdc2\_Cdc13}  & \multicolumn{2}{c|}{Ste9}  & \multicolumn{2}{c|}{Rum1}  & \multicolumn{2}{c|}{Slp1}  & \multicolumn{2}{c|}{Cdc2\_Cdc13A}  & \multicolumn{2}{c|}{Wee1\_Mik1}  & \multicolumn{2}{c|}{Cdc25}  & \multicolumn{2}{c|}{PP}\\\hline
+Start & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 4.5 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 2.4 & 0.0 & 0.0 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 4.0 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 2.7 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.8 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 2.3 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 3.9 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 4.4 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 2.5\\\hline
+SK & \cellcolor{green} -1.0 & \cellcolor{green} 0.0 & \cellcolor{YellowGreen} 3.0 & \cellcolor{YellowGreen} 1.7 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.3 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.1 & \cellcolor{YellowGreen} 3.0 & \cellcolor{YellowGreen} 2.7 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 0.7 & \cellcolor{YellowGreen} 2.0 & \cellcolor{YellowGreen} 1.2 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 0.2\\\hline
+Cdc2\_Cdc13 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 0.6 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 2.7 & \cellcolor{YellowGreen} 3.0 & \cellcolor{YellowGreen} 2.4 & \cellcolor{YellowGreen} -26.0 & \cellcolor{YellowGreen} -22.1 & \cellcolor{RedOrange} -17.0 & \cellcolor{RedOrange} -19.0 & \cellcolor{green} -18.0 & \cellcolor{green} 0.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.3 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 0.7\\\hline
+Ste9 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 5.0 & \cellcolor{YellowGreen} -9.0 & \cellcolor{YellowGreen} -3.8 & \cellcolor{YellowGreen} -8.0 & \cellcolor{YellowGreen} -5.9 & \cellcolor{YellowGreen} -12.0 & \cellcolor{YellowGreen} -5.9 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 9.2 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 3.1 & \cellcolor{RedOrange} -9.0 & \cellcolor{RedOrange} -10.7 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.6 & \cellcolor{RedOrange} 3.0 & \cellcolor{RedOrange} 5.5 & \cellcolor{YellowGreen} -14.0 & \cellcolor{YellowGreen} -0.4\\\hline
+Rum1 & \cellcolor{RedOrange} 3.0 & \cellcolor{RedOrange} 5.0 & \cellcolor{YellowGreen} -8.0 & \cellcolor{YellowGreen} -3.0 & \cellcolor{YellowGreen} -10.0 & \cellcolor{YellowGreen} -5.8 & \cellcolor{RedOrange} 4.0 & \cellcolor{RedOrange} 14.8 & \cellcolor{YellowGreen} -15.0 & \cellcolor{YellowGreen} -6.7 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.4 & \cellcolor{YellowGreen} -10.0 & \cellcolor{YellowGreen} -7.9 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.1 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 2.1 & \cellcolor{green} -10.0 & \cellcolor{green} 0.0\\\hline
+Slp1 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.2 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 0.1 & \cellcolor{green} 2.0 & \cellcolor{green} 0.0 & \cellcolor{green} 2.0 & \cellcolor{green} 0.0 & 0.0 & 0.0 & \cellcolor{green} -1.0 & \cellcolor{green} 0.0 & \cellcolor{green} 2.0 & \cellcolor{green} 0.0 & \cellcolor{green} 2.0 & \cellcolor{green} 0.0 & \cellcolor{YellowGreen} 3.0 & \cellcolor{YellowGreen} 1.3\\\hline
+Cdc2\_Cdc13A & \cellcolor{YellowGreen} 1.0 & \cellcolor{YellowGreen} 0.6 & \cellcolor{RedOrange} 4.0 & \cellcolor{RedOrange} 4.4 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.3 & \cellcolor{RedOrange} -11.0 & \cellcolor{RedOrange} -12.0 & \cellcolor{YellowGreen} -9.0 & \cellcolor{YellowGreen} -7.9 & \cellcolor{green} -15.0 & \cellcolor{green} 0.0 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0 & \cellcolor{YellowGreen} -10.0 & \cellcolor{YellowGreen} -9.7 & \cellcolor{YellowGreen} -13.0 & \cellcolor{YellowGreen} -11.4 & \cellcolor{RedOrange} 3.0 & \cellcolor{RedOrange} 6.3\\\hline
+Wee1\_Mik1 & 0.0 & 0.0 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 1.3 & \cellcolor{YellowGreen} -23.0 & \cellcolor{YellowGreen} -4.5 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.5 & \cellcolor{YellowGreen} 2.0 & \cellcolor{YellowGreen} 1.9 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 4.4 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 7.3 & \cellcolor{YellowGreen} -19.0 & \cellcolor{YellowGreen} -14.1 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 10.4 & \cellcolor{YellowGreen} -21.0 & \cellcolor{YellowGreen} -1.1\\\hline
+Cdc25 & 0.0 & 0.0 & 0.0 & 0.0 & \cellcolor{YellowGreen} -44.0 & \cellcolor{YellowGreen} -7.2 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 0.8 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 3.4 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 9.3 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 9.6 & \cellcolor{RedOrange} 1.0 & \cellcolor{RedOrange} 17.6 & \cellcolor{YellowGreen} -34.0 & \cellcolor{YellowGreen} -23.5 & \cellcolor{YellowGreen} -8.0 & \cellcolor{YellowGreen} -0.6\\\hline
+PP & \cellcolor{RedOrange} 3.0 & \cellcolor{RedOrange} 4.4 & \cellcolor{RedOrange} 2.0 & \cellcolor{RedOrange} 2.4 & \cellcolor{RedOrange} 0.0 & \cellcolor{RedOrange} 0.4 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0 & \cellcolor{YellowGreen} 5.0 & \cellcolor{YellowGreen} 3.6 & \cellcolor{green} -2.0 & \cellcolor{green} 0.0 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0 & 0.0 & 0.0 & \cellcolor{YellowGreen} 2.0 & \cellcolor{YellowGreen} 1.8 & \cellcolor{green} 1.0 & \cellcolor{green} 0.0\\\hline
+\end{tabularx}
+\end{footnotesize}

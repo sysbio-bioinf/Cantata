@@ -1,0 +1,13 @@
+targets, factors
+Start, (!PP & Start & Cdc25 & !Cdc2_Cdc13A)
+SK, Start
+Cdc2_Cdc13, (!Rum1 & !SK & !Slp1)
+Ste9, ((Ste9 & !SK & PP & !Cdc2_Cdc13) | (Ste9 & !SK & PP & !Cdc2_Cdc13A) | (Ste9 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Ste9 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Rum1, ((Rum1 & !Cdc2_Cdc13 & PP & !SK) | (!SK & !Cdc2_Cdc13A & PP & Rum1) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1, Cdc2_Cdc13A
+Cdc2_Cdc13A, ((Cdc25 | PP) & !Slp1 & !Wee1_Mik1 & !Rum1 & !Ste9)
+Wee1_Mik1, ((!Cdc2_Cdc13 & Wee1_Mik1) | (PP & !Cdc2_Cdc13 & Wee1_Mik1) | PP)
+Cdc25, ((Cdc25 & Cdc2_Cdc13 & !PP) | (Cdc25 & !PP) | Cdc2_Cdc13)
+PP, Slp1
+
+

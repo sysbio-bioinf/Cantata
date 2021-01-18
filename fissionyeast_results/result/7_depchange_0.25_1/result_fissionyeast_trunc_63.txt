@@ -1,0 +1,376 @@
+Input network file:           result/7_depchange_0.25_1_newfit/fissionyeast_trunc_63.txt
+Rule file:                    fissionyeast-rules.txt
+Random seed:                  160920
+Population size:              100
+Number of offspring:          200
+Fract. of injected nets:      0.1
+Neg. every i-th offspring:    50
+Number of generations:        1000
+Number of restarts:           5
+Initial mutations:            1
+Epsilon:                      0.0005
+Max. number of start states:  200
+Max. number of transitions:   100
+
+Best candidate networks: 
+
+Start = (Start & PP)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((!SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!Cdc2_Cdc13 & !Cdc2_Cdc13A & PP & Rum1) | (PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A & !SK & Rum1))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & Cdc25 & !Slp1 & !Rum1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | PP | (!Cdc2_Cdc13 & PP & Wee1_Mik1))
+Cdc25 = ((Cdc2_Cdc13 & Cdc25 & !PP) | (Cdc25 & !PP) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257029 0.096 Run: 4 Generation: 819
+
+Start = (Start & PP)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((!SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A & !SK & Rum1))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Rum1 & !Slp1 & Cdc25 & !Ste9)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | PP | (!Cdc2_Cdc13 & (PP | Wee1_Mik1)))
+Cdc25 = ((Cdc2_Cdc13 & !PP & Cdc25) | (Cdc25 & !PP) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257087 0.0955 Run: 4 Generation: 949
+
+Start = (Start & SK)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((!SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A & !SK & Rum1))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | PP | (!Cdc2_Cdc13 & (PP | Wee1_Mik1)))
+Cdc25 = ((Cdc2_Cdc13 & Cdc25 & !PP) | (Cdc25 & !PP) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257087 0.1 Run: 4 Generation: 345
+
+Start = (Start & Cdc2_Cdc13A)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13)
+Rum1 = ((!SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A & !SK & Rum1))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | PP | (!Cdc2_Cdc13 & (PP | Wee1_Mik1)))
+Cdc25 = ((Cdc2_Cdc13 & Cdc25 & !PP) | (Cdc25 & !PP) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257087 0.1005 Run: 4 Generation: 857
+
+Start = (Start & Cdc2_Cdc13A)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A & PP))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (Cdc25 & !Slp1 & !Ste9 & !Rum1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & !PP) | (Cdc2_Cdc13 & !PP & Cdc25) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257087 0.103 Run: 5 Generation: 554
+
+Start = (Start & Cdc2_Cdc13A)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((!SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A & Rum1) | (PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A & !SK & Rum1))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | PP | (!Cdc2_Cdc13 & (PP | Wee1_Mik1)))
+Cdc25 = ((Cdc2_Cdc13 & Cdc25 & !PP) | (!PP & Cdc25) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257087 0.103 Run: 4 Generation: 618
+
+Start = (Start & Slp1)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Slp1 & !Rum1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & !PP) | (Cdc2_Cdc13 & !PP & Cdc25) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257087 0.1035 Run: 5 Generation: 173
+
+Start = (Start & Cdc2_Cdc13)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Rum1 & Cdc25 & !Slp1 & !Ste9)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & !PP) | (Cdc2_Cdc13 & !PP & Cdc25) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257087 0.1045 Run: 5 Generation: 699
+
+Start = (Start & Cdc25)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((!SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!Cdc2_Cdc13 & !Cdc2_Cdc13A & PP & Rum1) | (PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A & !SK & Rum1))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | PP | (!Cdc2_Cdc13 & (PP | Wee1_Mik1)))
+Cdc25 = ((Cdc2_Cdc13 & Cdc25 & !PP) | (Cdc25 & !PP) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257087 0.105 Run: 4 Generation: 383
+
+Start = (Start & Cdc2_Cdc13A)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((!SK & PP & (!Cdc2_Cdc13 | Rum1)) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | PP | (!Cdc2_Cdc13 & PP & Wee1_Mik1))
+Cdc25 = ((Cdc2_Cdc13 & Cdc25 & !PP) | (Cdc25 & !PP) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257087 0.112 Run: 4 Generation: 135
+
+Start = (Start & !Ste9)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Rum1 & !Slp1)
+Ste9 = (PP | (Rum1 & !Cdc2_Cdc13))
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (PP & !Cdc2_Cdc13A & !Cdc2_Cdc13 & !SK))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (PP & Wee1_Mik1 & !Cdc2_Cdc13) | PP)
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257087 0.1125 Run: 2 Generation: 892
+
+Start = (Start & Slp1)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((!SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A & !SK & Rum1))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | PP | (!Cdc2_Cdc13 & (PP | Wee1_Mik1)))
+Cdc25 = ((Cdc2_Cdc13 & Cdc25 & !PP) | (Cdc25 & !PP) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257087 0.12 Run: 4 Generation: 551
+
+Start = (Start & Cdc2_Cdc13)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & !PP) | (Cdc2_Cdc13 & (!PP | Cdc25)) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257143 0.094 Run: 5 Generation: 671
+
+Start = (Start & Cdc2_Cdc13A)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Slp1 & !Ste9)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((!SK & PP & (!Cdc2_Cdc13 | Rum1)) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | PP | (!Cdc2_Cdc13 & (PP | Wee1_Mik1)))
+Cdc25 = ((Cdc2_Cdc13 & Cdc25 & !PP) | (!PP & Cdc25) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257143 0.097 Run: 4 Generation: 998
+
+Start = (Start & Cdc2_Cdc13A)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = (((Cdc25 | Cdc2_Cdc13) & !PP) | (!PP & Cdc2_Cdc13 & Cdc25))
+PP = Slp1
+Fitness: 0 0.257143 0.1 Run: 5 Generation: 468
+
+Start = (Start & Cdc2_Cdc13)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13)
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & !PP) | (Cdc2_Cdc13 & (!PP | Cdc25)) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257143 0.101 Run: 5 Generation: 475
+
+Start = (Start & !Wee1_Mik1)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Rum1 & !Slp1)
+Ste9 = (PP | (Rum1 & !Cdc2_Cdc13))
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (PP & (!Cdc2_Cdc13 | !SK) & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (PP & Wee1_Mik1 & !Cdc2_Cdc13) | PP)
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257143 0.103 Run: 2 Generation: 995
+
+Start = (Start & !Rum1)
+SK = Start
+Cdc2_Cdc13 = (!Slp1 & !Rum1 & !Ste9)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13)
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257143 0.1065 Run: 3 Generation: 414
+
+Start = (Start & Cdc2_Cdc13)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((!SK & PP & (!Cdc2_Cdc13 | Rum1)) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | PP | (!Cdc2_Cdc13 & (PP | Wee1_Mik1)))
+Cdc25 = ((Cdc2_Cdc13 & Cdc25 & !PP) | (!PP & Cdc25) | Cdc2_Cdc13)
+PP = Slp1
+Fitness: 0 0.257143 0.107 Run: 4 Generation: 361
+
+Start = (Start & Cdc2_Cdc13A)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Rum1 & !Slp1)
+Ste9 = (PP | (Rum1 & !Cdc2_Cdc13A))
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257143 0.108 Run: 1 Generation: 938
+
+Start = (Start & PP)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Rum1 & !Slp1)
+Ste9 = (PP | (Rum1 & !Cdc2_Cdc13A))
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257143 0.109 Run: 1 Generation: 324
+
+Start = (Start & Cdc2_Cdc13A)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Rum1 & !Slp1)
+Ste9 = (PP | (Rum1 & !Cdc2_Cdc13))
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257143 0.111 Run: 1 Generation: 626
+
+Start = (Start & !Rum1)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Rum1 & !Slp1)
+Ste9 = (PP | (Rum1 & !Cdc2_Cdc13))
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (PP & (!Cdc2_Cdc13 | !SK) & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (PP & Wee1_Mik1 & !Cdc2_Cdc13) | PP)
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257143 0.1115 Run: 2 Generation: 811
+
+Start = (Start & !Rum1)
+SK = Start
+Cdc2_Cdc13 = (!Slp1 & !Rum1 & !Ste9)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & Cdc25 & !Slp1 & !Rum1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257143 0.1135 Run: 3 Generation: 982
+
+Start = (Start & PP)
+SK = Start
+Cdc2_Cdc13 = (!Slp1 & !Rum1 & !Ste9)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((!Cdc2_Cdc13 & Wee1_Mik1) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257143 0.114 Run: 3 Generation: 999
+
+Start = (Start & Cdc2_Cdc13)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Rum1 & !Slp1)
+Ste9 = (PP | (Rum1 & !Cdc2_Cdc13A))
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257143 0.1145 Run: 1 Generation: 887
+
+Start = (Start & PP)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Rum1 & !Slp1)
+Ste9 = (PP | (Rum1 & !Cdc2_Cdc13))
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257143 0.1155 Run: 1 Generation: 622
+
+Start = (Start & Cdc2_Cdc13A)
+SK = Start
+Cdc2_Cdc13 = (!Rum1 & !Ste9 & !Slp1)
+Ste9 = ((Rum1 | PP) & !Cdc2_Cdc13A)
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (!SK & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & !Slp1 & Cdc25)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & PP) | (!Cdc2_Cdc13 & PP))
+Cdc25 = (((Cdc25 | Cdc2_Cdc13) & !PP) | ((Cdc2_Cdc13 | Cdc25) & !PP))
+PP = Slp1
+Fitness: 0 0.257198 0.095 Run: 5 Generation: 799
+
+Start = (Start & !Rum1)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Rum1 & !Slp1)
+Ste9 = (PP | (!Cdc2_Cdc13 & Rum1))
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (PP & (!Cdc2_Cdc13 | !SK) & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & (PP | !Cdc2_Cdc13)) | PP)
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257198 0.1075 Run: 2 Generation: 831
+
+Start = (Start & !Wee1_Mik1)
+SK = Start
+Cdc2_Cdc13 = (!Ste9 & !Rum1 & !Slp1)
+Ste9 = (PP | (Rum1 & !Cdc2_Cdc13))
+Rum1 = ((Rum1 & !SK & PP & !Cdc2_Cdc13) | (Rum1 & !SK & PP & !Cdc2_Cdc13A) | (Rum1 & !SK & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (Rum1 & PP & !Cdc2_Cdc13 & !Cdc2_Cdc13A) | (PP & (!Cdc2_Cdc13 | !SK) & !Cdc2_Cdc13A))
+Slp1 = Cdc2_Cdc13A
+Cdc2_Cdc13A = (!Ste9 & !Rum1 & Cdc25 & !Slp1)
+Wee1_Mik1 = ((Wee1_Mik1 & !Cdc2_Cdc13) | (Wee1_Mik1 & (PP | !Cdc2_Cdc13)) | PP)
+Cdc25 = ((Cdc25 & Cdc2_Cdc13) | (Cdc25 & !PP) | (Cdc2_Cdc13 & !PP))
+PP = Slp1
+Fitness: 0 0.257198 0.109 Run: 2 Generation: 209
+
