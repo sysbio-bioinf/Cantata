@@ -1,0 +1,29 @@
+Chain:
+Initial condition:
+Start !SK !Cdc2_Cdc13 Ste9 Rum1 !Slp1 !Cdc2_Cdc13A Wee1_Mik1 !Cdc25 !PP
+State specifications:
+!Start SK !Cdc2_Cdc13 Ste9 Rum1 !Slp1 !Cdc2_Cdc13A Wee1_Mik1 !Cdc25 !PP
+!Start !SK !Cdc2_Cdc13 !Ste9 !Rum1 !Slp1 !Cdc2_Cdc13A Wee1_Mik1 !Cdc25 !PP
+!Start !SK Cdc2_Cdc13 !Ste9 !Rum1 !Slp1 !Cdc2_Cdc13A Wee1_Mik1 !Cdc25 !PP
+!Start !SK Cdc2_Cdc13 !Ste9 !Rum1 !Slp1 !Cdc2_Cdc13A !Wee1_Mik1 Cdc25 !PP
+!Start !SK Cdc2_Cdc13 !Ste9 !Rum1 !Slp1 Cdc2_Cdc13A !Wee1_Mik1 Cdc25 !PP
+!Start !SK Cdc2_Cdc13 !Ste9 !Rum1 Slp1 Cdc2_Cdc13A !Wee1_Mik1 Cdc25 !PP
+!Start !SK !Cdc2_Cdc13 !Ste9 !Rum1 Slp1 !Cdc2_Cdc13A !Wee1_Mik1 Cdc25 PP
+!Start !SK !Cdc2_Cdc13 Ste9 Rum1 !Slp1 !Cdc2_Cdc13A Wee1_Mik1 !Cdc25 PP
+!Start !SK !Cdc2_Cdc13 Ste9 Rum1 !Slp1 !Cdc2_Cdc13A Wee1_Mik1 !Cdc25 !PP
+
+
+Attractor:
+Initial condition:
+!Start !SK !Cdc2_Cdc13 !Ste9 !Rum1 !Slp1 !Cdc2_Cdc13A !Wee1_Mik1 Cdc25 PP
+State specifications:
+!Start !SK !Cdc2_Cdc13 !Ste9 !Rum1 !Slp1 !Cdc2_Cdc13A !Wee1_Mik1 Cdc25 PP
+!Start !SK Cdc2_Cdc13 Ste9 Rum1 !Slp1 Cdc2_Cdc13A Wee1_Mik1 !Cdc25 !PP
+!Start !SK !Cdc2_Cdc13 !Ste9 !Rum1 Slp1 !Cdc2_Cdc13A !Wee1_Mik1 Cdc25 !PP
+
+Attractor:
+Initial condition:
+!Start !SK !Cdc2_Cdc13 Ste9 Rum1 !Slp1 !Cdc2_Cdc13A Wee1_Mik1 !Cdc25 !PP
+State specifications:
+!Start !SK !Cdc2_Cdc13 Ste9 Rum1 !Slp1 !Cdc2_Cdc13A Wee1_Mik1 !Cdc25 !PP
+

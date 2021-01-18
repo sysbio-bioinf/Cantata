@@ -1,0 +1,24 @@
+Description:
+CANTATA is an approach to find missing interactions in Boolean networks using prior network knowledge and experimental results.
+Using genetic programming the prior network is adapted to match the desired behavior as specified in the experimental results.
+
+Content overview:
+src - source code for CANTATA software.
+Makefile - Makefile to install CANTATA locally using g++ compiler.
+fissionyeast* - files to run a CANTATA demo using the fission yeast cell cycle model by Davidich et al., 2008.
+runDemo - script to run the CANTATA demo with exemplary settings. This script runs for about 10s on a MacBook Pro 2017, with 3.1 GHz.
+cantata-manual.pdf - A manual with detailed description how to use CANTATA.
+Fissionyeast_results - A folder which contains the scripts to reproduce the results which are shown in the manuscript. This folder comprises the original network, the perturbed copies, the reconstructed results and the R-scripts to analyse the results.
+
+Installation:
+Install the CANTATA software using "make". The command will compile the source code and create a binary executable "cantata" in ./bin/
+The CANTATA software run on all main operating systems with GNU C++ compiler g++. Other compilers might also work but are not tested. We tested the software on Ubuntu 18.04, MacOS 15.4 and Windows 10 using the g++ compiler.
+Installation is completed in ~1 minute on standard computers.
+
+Run the software: 
+Run CANTATA using "./bin/cantata". The software will print the set of required and optional parameters to run the software. 
+Additionally, files to run a demo are included. 
+The demo runs a modified version of the fission yeast cell cycle model (Davidich, 2008), "fissionyeast_trunc_1.txt". Boolean networks are specified in the BoolNet text format. 
+As experimental results, we specified the most significant attractors of the unmodified yeast network in "fissionyeast-rules.txt". 
+The demo can be started using "sh ./runDemo.sh". This script runs for about 10s on a MacBook Pro 2017, with 3.1 GHz. The demo creates the output-file "fissionyeast_results.txt".
+For detailed description of the software see the manual.
