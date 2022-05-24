@@ -1,0 +1,356 @@
+CANTATA build 13/04
+Input network file:           ./Azpeitia2013RSCN_Net_noRed.txt
+Rule file:                    ./AzpeitiaRSCN-rules.txt
+Random seed:                  1596797138
+Population size:              500
+Number of offspring:          800
+Fract. of injected nets:      0.1
+Neg. every i-th offspring:    50
+Number of generations:        1500
+Number of restarts:           5
+Initial mutations:            1
+Epsilon:                      0.0005
+Weights of topology scores:   0.25/0.25/0.5
+Max. number of start states:  200
+Max. number of transitions:   100
+
+Best candidate networks: 
+
+SHR = SHR
+SCR = (SCR & SHR & JKD)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !ACR)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = ((!CLE | !PHB | !IAA5) & !ACR & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0831818 Run: 4 Generation: 1261
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !ACR)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !ACR & (!IAA5 | !CLE) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0859091 Run: 2 Generation: 694
+
+SHR = SHR
+SCR = (SHR & JKD & SCR)
+JKD = (((SHR & SCR) | JKD) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!CLE & !miRNA165)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!(CLE & ACR & IAA5) & !PHB & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0877273 Run: 5 Generation: 210
+
+SHR = SHR
+SCR = (SHR & SCR & JKD)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & Auxin)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & (!ACR | !IAA5 | !CLE) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0881818 Run: 4 Generation: 1165
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SCR & SHR) | miRNA165)
+PHB = (!miRNA165 & Auxin)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !ACR & (!IAA5 | !CLE) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0881818 Run: 2 Generation: 983
+
+SHR = SHR
+SCR = (SHR & SCR & JKD)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & PHB)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & (!ACR | !IAA5 | !CLE) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0895455 Run: 4 Generation: 177
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !IAA5)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !ACR & (!IAA5 | !CLE) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.09 Run: 2 Generation: 733
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & PHB)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !(CLE & IAA5) & !ACR & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0913636 Run: 1 Generation: 1327
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SCR & SHR) | miRNA165)
+PHB = (Auxin & !miRNA165)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !CLE & (!IAA5 | !ACR) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0913636 Run: 1 Generation: 1469
+
+SHR = SHR
+SCR = (SHR & JKD & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !IAA5)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!(CLE & ACR & IAA5) & !PHB & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0936364 Run: 5 Generation: 171
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & PHB)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !CLE & (!IAA5 | !ACR) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0940909 Run: 1 Generation: 1327
+
+SHR = SHR
+SCR = (SCR & SHR & JKD)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !CLE)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = ((!CLE | !PHB | !IAA5) & !ACR & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.0977273 Run: 4 Generation: 282
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & SHR)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !CLE & (!IAA5 | !ACR) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.1 Run: 1 Generation: 954
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !CLE)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !ACR & (!IAA5 | !CLE) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.100455 Run: 2 Generation: 664
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & SHR)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !(CLE & IAA5) & !ACR & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.103636 Run: 1 Generation: 1133
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SCR & SHR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & SHR)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !(CLE & ACR & IAA5) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.264916 0.109091 Run: 3 Generation: 79
+
+SHR = SHR
+SCR = (SCR & SHR & JKD)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !CLE)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (((!PHB & !IAA5) | !CLE) & !ACR & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.265139 0.0777273 Run: 4 Generation: 1417
+
+SHR = SHR
+SCR = (SHR & (SCR | JKD))
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & PHB)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & WOX5 & !ACR & (!CLE | !IAA5))
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.265139 0.0863636 Run: 4 Generation: 1087
+
+SHR = SHR
+SCR = (SHR & SCR & JKD)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !IAA5)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!(CLE & (IAA5 | ACR)) & !PHB & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.265139 0.0904545 Run: 5 Generation: 826
+
+SHR = SHR
+SCR = (SCR & SHR & JKD)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !IAA5)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (((!PHB & !IAA5) | !CLE) & !ACR & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.265139 0.0918182 Run: 4 Generation: 435
+
+SHR = SHR
+SCR = (SHR & JKD & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !ACR)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (((!PHB & !IAA5) | !CLE) & !ACR & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.265139 0.0927273 Run: 4 Generation: 782
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & PHB)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !((CLE | IAA5) & ACR) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.265139 0.0936364 Run: 1 Generation: 1060
+
+SHR = SHR
+SCR = (SHR & SCR & JKD)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !ACR)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!(CLE | ACR) & (!PHB | !IAA5) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.265139 0.0963636 Run: 5 Generation: 1069
+
+SHR = SHR
+SCR = (SHR & SCR & JKD)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & !CLE)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!(CLE & (IAA5 | ACR)) & !PHB & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.265139 0.0968182 Run: 5 Generation: 745
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & PHB)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !(CLE & (ACR | IAA5)) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.265139 0.103636 Run: 1 Generation: 188
+
+SHR = SHR
+SCR = (JKD & SHR & SCR)
+JKD = ((JKD | (SHR & SCR)) & !PHB)
+MGP = MGP
+miRNA165 = ((SHR & SCR) | miRNA165)
+PHB = (!miRNA165 & Auxin)
+Auxin = Auxin
+IAA5 = !Auxin
+WOX5 = (!PHB & !(CLE & (ACR | IAA5)) & WOX5)
+CLE = CLE
+ACR = CLE
+Fitness: 0 0.265139 0.107727 Run: 1 Generation: 404
+

@@ -1,0 +1,71 @@
+
+
+Attractor:
+Initial condition:
+SHR !miRNA165 !JKD !MGP PHB !SCR !IAA5 Auxin !WOX5 !CLE !ACR
+State specifications:
+SHR !miRNA165 !JKD !MGP PHB !SCR !IAA5 Auxin !WOX5 !CLE !ACR
+
+Attractor:
+Initial condition:
+SHR miRNA165 !JKD !MGP !PHB !SCR !IAA5 Auxin !WOX5 !CLE !ACR
+State specifications:
+SHR miRNA165 !JKD !MGP !PHB !SCR !IAA5 Auxin !WOX5 !CLE !ACR
+
+
+Attractor:
+Initial condition:
+SHR miRNA165 JKD MGP !PHB SCR !IAA5 Auxin !WOX5 !CLE !ACR
+State specifications:
+SHR miRNA165 JKD MGP !PHB SCR !IAA5 Auxin !WOX5 !CLE !ACR
+
+
+Attractor:
+Initial condition:
+!SHR miRNA165 JKD !MGP !PHB !SCR !IAA5 Auxin !WOX5 !CLE !ACR
+State specifications:
+!SHR miRNA165 JKD !MGP !PHB !SCR !IAA5 Auxin !WOX5 !CLE !ACR
+
+
+Attractor:
+Initial condition:
+!SHR !miRNA165 !JKD !MGP !PHB !SCR IAA5 !Auxin !WOX5 CLE ACR
+State specifications:
+!SHR !miRNA165 !JKD !MGP !PHB !SCR IAA5 !Auxin !WOX5 CLE ACR
+
+Attractor:
+Initial condition:
+SHR miRNA165 !JKD !MGP !PHB !SCR IAA5 !Auxin !WOX5 !CLE !ACR
+State specifications:
+SHR miRNA165 !JKD !MGP !PHB !SCR IAA5 !Auxin !WOX5 !CLE !ACR
+
+
+Attractor:
+Initial condition:
+SHR miRNA165 JKD MGP !PHB SCR IAA5 !Auxin !WOX5 !CLE !ACR
+State specifications:
+SHR miRNA165 JKD MGP !PHB SCR IAA5 !Auxin !WOX5 !CLE !ACR
+
+Attractor:
+Initial condition:
+!SHR miRNA165 !JKD !MGP !PHB !SCR IAA5 !Auxin !WOX5 CLE ACR
+State specifications:
+!SHR miRNA165 !JKD !MGP !PHB !SCR IAA5 !Auxin !WOX5 CLE ACR
+
+
+Attractor:
+Initial condition:
+SHR miRNA165 JKD !MGP !PHB SCR IAA5 !Auxin WOX5 !CLE !ACR
+State specifications:
+SHR miRNA165 JKD !MGP !PHB SCR IAA5 !Auxin WOX5 !CLE !ACR
+
+
+
+
+
+
+
+
+
+
+
