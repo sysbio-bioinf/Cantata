@@ -1,0 +1,227 @@
+CANTATA build 13/04
+Input network file:           model_draft.txt
+Rule file:                    LiverDREAM/cv_cant/6_4/rules.txt
+Random seed:                  1070520269
+Population size:              100
+Number of offspring:          200
+Fract. of injected nets:      0.1
+Neg. every i-th offspring:    50
+Number of generations:        1000
+Number of restarts:           1
+Initial mutations:            1
+Epsilon:                      0.0005
+Weights of topology scores:   0.25/0.25/0.5
+Max. number of start states:  200
+Max. number of transitions:   1000
+
+Best candidate networks: 
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = (ikk | akt | map3k7 | map3k1)
+ras = (tgfa | jnk12)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & akt)
+pi3k = (igf1 & ras & tgfa & tnfa)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & il1a) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274443 0.0517647 Run: 1 Generation: 812
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = (ikk | akt | map3k7 | map3k1)
+ras = (tgfa | il1a)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & akt)
+pi3k = (igf1 & ras & tgfa & tnfa)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & akt) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274443 0.0564706 Run: 1 Generation: 487
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = (ikk | akt | map3k7 | map3k1)
+ras = (tgfa | il1a)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & akt)
+pi3k = (igf1 & ras & tgfa & tnfa)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & il1a) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274443 0.0570588 Run: 1 Generation: 996
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = (ikk | akt | map3k7 | map3k1)
+ras = (tgfa | map3k7)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & akt)
+pi3k = (igf1 & ras & tgfa & tnfa)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & akt) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274443 0.0597059 Run: 1 Generation: 713
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = (ikk | akt | map3k7 | map3k1)
+ras = (tgfa | map3k7)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & akt)
+pi3k = (igf1 & ras & tgfa & tnfa)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & mek12) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274443 0.0602941 Run: 1 Generation: 845
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = (ikk | akt | map3k7 | map3k1)
+ras = (tgfa | il1a)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & akt)
+pi3k = (igf1 & ras & tgfa & tnfa)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & mek12) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274443 0.0617647 Run: 1 Generation: 610
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = (tnfa | akt | map3k7 | map3k1)
+ras = (tgfa | il1a)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & akt)
+pi3k = (igf1 & ras & tgfa & tnfa)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & mek12) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274443 0.0632353 Run: 1 Generation: 753
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = ((map3k7 & map3k1) | ikk | akt)
+ras = (tgfa | il1a)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & tgfa)
+pi3k = (igf1 & ras & tgfa & tnfa)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & il1a) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274517 0.0526471 Run: 1 Generation: 401
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = ((map3k7 & map3k1) | ikk | akt)
+ras = (tgfa | il1a)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & akt)
+pi3k = (igf1 & ras & tgfa & tnfa)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & il1a) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274517 0.0555882 Run: 1 Generation: 519
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = ((map3k7 & map3k1) | mkk4 | akt)
+ras = (tgfa | il1a)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & akt)
+pi3k = (igf1 & ras & tgfa & tnfa)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & akt) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274517 0.0582353 Run: 1 Generation: 518
+
+map3k7 = il1a
+mek12 = (ras | (pi3k & !akt))
+map3k1 = (ras & pi3k & il1a)
+mkk4 = (map3k7 | map3k1 | tnfa)
+ikk = ((map3k7 & map3k1) | ikk | akt)
+ras = (tgfa | jnk12)
+p38 = (map3k7 & mkk4)
+erk12 = (mek12 & akt)
+pi3k = (ras & tgfa & tnfa & igf1)
+akt = (igf1 | tgfa | pi3k)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = ((mkk4 & il1a) | map3k7 | (tnfa & map3k1))
+ikb = (mkk4 & ikk)
+hsp27 = (p38 & (map3k7 | erk12))
+Fitness: 0.025974 0.274517 0.06 Run: 1 Generation: 587
+

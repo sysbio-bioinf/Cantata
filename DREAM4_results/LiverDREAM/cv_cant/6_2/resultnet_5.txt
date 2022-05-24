@@ -1,0 +1,20 @@
+targets, factors
+map3k7, il1a
+mek12, ((!akt & (jnk12 | pi3k)) | ras)
+map3k1, (ras & pi3k & il1a)
+mkk4, (map3k7 & tnfa & map3k1)
+ikk, (map3k7 | akt | map3k1 | ikk)
+ras, tgfa
+p38, (map3k7 | mkk4)
+erk12, (mek12 & !map3k7)
+pi3k, (igf1 | (tnfa & ras & tgfa))
+akt, (pi3k | ras)
+igf1, igf1
+il1a, il1a
+tgfa, tgfa
+tnfa, tnfa
+jnk12, (map3k7 | (map3k1 & tnfa) | mkk4)
+ikb, (ikk & (tnfa | il1a))
+hsp27, (p38 & (map3k7 | erk12))
+
+

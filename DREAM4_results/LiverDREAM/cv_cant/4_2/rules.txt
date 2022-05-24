@@ -1,0 +1,176 @@
+Attractor:
+Initial condition:
+!igf1 !il1a !tgfa !tnfa ikk mek12 pi3k p38
+Fixed genes:
+
+State specifications:
+!akt !erk12 !ikb !jnk12 !p38 !hsp27 !mek12
+
+Attractor:
+Initial condition:
+!igf1 il1a !tgfa !tnfa ikk mek12 pi3k p38
+Fixed genes:
+il1a
+State specifications:
+!akt !erk12 ikb jnk12 p38 hsp27 mek12
+
+Attractor:
+Initial condition:
+igf1 !il1a !tgfa !tnfa ikk mek12 pi3k p38
+Fixed genes:
+igf1
+State specifications:
+akt !erk12 !ikb !jnk12 !p38 !hsp27 !mek12
+
+Attractor:
+Initial condition:
+!igf1 !il1a tgfa !tnfa ikk mek12 pi3k p38
+Fixed genes:
+tgfa
+State specifications:
+akt erk12 !ikb !jnk12 p38 !hsp27 mek12
+
+Attractor:
+Initial condition:
+!igf1 !il1a !tgfa !tnfa ikk !mek12 pi3k p38
+Fixed genes:
+!mek12
+State specifications:
+!akt !erk12 !ikb !jnk12 !p38 !hsp27
+
+Attractor:
+Initial condition:
+!igf1 !il1a !tgfa tnfa ikk !mek12 pi3k p38
+Fixed genes:
+tnfa !mek12
+State specifications:
+!akt !erk12 ikb !jnk12 !p38 !hsp27
+
+Attractor:
+Initial condition:
+!igf1 il1a !tgfa !tnfa ikk !mek12 pi3k p38
+Fixed genes:
+il1a !mek12
+State specifications:
+!akt !erk12 ikb jnk12 p38 hsp27
+
+Attractor:
+Initial condition:
+igf1 !il1a !tgfa !tnfa ikk !mek12 pi3k p38
+Fixed genes:
+igf1 !mek12
+State specifications:
+akt !erk12 !ikb !jnk12 !p38 !hsp27
+
+Attractor:
+Initial condition:
+!igf1 !il1a tgfa !tnfa ikk !mek12 pi3k p38
+Fixed genes:
+tgfa !mek12
+State specifications:
+akt !erk12 !ikb !jnk12 !p38 !hsp27
+
+Attractor:
+Initial condition:
+!igf1 !il1a !tgfa !tnfa ikk mek12 pi3k !p38
+Fixed genes:
+!p38
+State specifications:
+!akt !erk12 !ikb !jnk12 !hsp27 !mek12
+
+Attractor:
+Initial condition:
+!igf1 !il1a !tgfa tnfa ikk mek12 pi3k !p38
+Fixed genes:
+tnfa !p38
+State specifications:
+!akt !erk12 ikb !jnk12 !hsp27 !mek12
+
+Attractor:
+Initial condition:
+igf1 !il1a !tgfa !tnfa ikk mek12 pi3k !p38
+Fixed genes:
+igf1 !p38
+State specifications:
+akt !erk12 !ikb !jnk12 !hsp27 !mek12
+
+Attractor:
+Initial condition:
+!igf1 !il1a tgfa !tnfa ikk mek12 pi3k !p38
+Fixed genes:
+tgfa !p38
+State specifications:
+akt erk12 !ikb !jnk12 !hsp27 mek12
+
+Attractor:
+Initial condition:
+!igf1 !il1a !tgfa !tnfa ikk mek12 !pi3k p38
+Fixed genes:
+!pi3k
+State specifications:
+!akt !erk12 !ikb !jnk12 !p38 !hsp27 !mek12
+
+Attractor:
+Initial condition:
+!igf1 !il1a !tgfa tnfa ikk mek12 !pi3k p38
+Fixed genes:
+tnfa !pi3k
+State specifications:
+akt !erk12 ikb !jnk12 !p38 !hsp27 !mek12
+
+Attractor:
+Initial condition:
+!igf1 il1a !tgfa !tnfa ikk mek12 !pi3k p38
+Fixed genes:
+il1a !pi3k
+State specifications:
+akt !erk12 ikb jnk12 p38 hsp27 mek12
+
+Attractor:
+Initial condition:
+!igf1 !il1a tgfa !tnfa ikk mek12 !pi3k p38
+Fixed genes:
+tgfa !pi3k
+State specifications:
+akt erk12 !ikb !jnk12 !p38 !hsp27 mek12
+
+Attractor:
+Initial condition:
+!igf1 !il1a !tgfa !tnfa !ikk mek12 pi3k p38
+Fixed genes:
+!ikk
+State specifications:
+!akt !erk12 !ikb !jnk12 !p38 !hsp27 !mek12
+
+Attractor:
+Initial condition:
+!igf1 !il1a !tgfa tnfa !ikk mek12 pi3k p38
+Fixed genes:
+tnfa !ikk
+State specifications:
+!akt !erk12 !ikb !jnk12 !p38 !hsp27 !mek12
+
+Attractor:
+Initial condition:
+!igf1 il1a !tgfa !tnfa !ikk mek12 pi3k p38
+Fixed genes:
+il1a !ikk
+State specifications:
+!akt !erk12 !ikb jnk12 p38 hsp27 mek12
+
+Attractor:
+Initial condition:
+igf1 !il1a !tgfa !tnfa !ikk mek12 pi3k p38
+Fixed genes:
+igf1 !ikk
+State specifications:
+akt !erk12 !ikb !jnk12 !p38 !hsp27 !mek12
+
+Attractor:
+Initial condition:
+!igf1 !il1a tgfa !tnfa !ikk mek12 pi3k p38
+Fixed genes:
+tgfa !ikk
+State specifications:
+akt erk12 !ikb !jnk12 !p38 !hsp27 mek12
+

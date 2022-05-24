@@ -1,0 +1,75 @@
+CANTATA build 13/04
+Input network file:           model_draft.txt
+Rule file:                    LiverDREAM/cv_cant/8_7/rules.txt
+Random seed:                  2030998247
+Population size:              100
+Number of offspring:          200
+Fract. of injected nets:      0.1
+Neg. every i-th offspring:    50
+Number of generations:        1000
+Number of restarts:           1
+Initial mutations:            1
+Epsilon:                      0.0005
+Weights of topology scores:   0.25/0.25/0.5
+Max. number of start states:  200
+Max. number of transitions:   1000
+
+Best candidate networks: 
+
+map3k7 = il1a
+mek12 = ((jnk12 & !akt) | (ras & pi3k))
+map3k1 = (ras | pi3k | il1a)
+mkk4 = (tnfa | map3k7 | map3k1)
+ikk = map3k7
+ras = tgfa
+p38 = (map3k7 & mkk4)
+erk12 = (pi3k & mek12)
+pi3k = ((ras & (tgfa | tnfa)) | igf1)
+akt = (pi3k | igf1)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = (map3k7 & map3k1 & (mkk4 | tnfa))
+ikb = (ikk | (tnfa & ikb & !p38))
+hsp27 = (p38 | (erk12 & map3k7))
+Fitness: 0.0248447 0.27924 0.0614706 Run: 1 Generation: 315
+
+map3k7 = il1a
+mek12 = ((p38 & !akt) | (ras & pi3k))
+map3k1 = (ras | pi3k | il1a)
+mkk4 = (map3k1 | tnfa | map3k7)
+ikk = map3k7
+ras = tgfa
+p38 = (map3k7 & mkk4)
+erk12 = (tgfa & mek12)
+pi3k = ((ras & (tgfa | tnfa)) | igf1)
+akt = (pi3k | igf1)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = (map3k7 & map3k1 & (mkk4 | tnfa))
+ikb = (ikk | (tnfa & ikb & !p38))
+hsp27 = (p38 | (erk12 & map3k7))
+Fitness: 0.0248447 0.27924 0.0620588 Run: 1 Generation: 698
+
+map3k7 = il1a
+mek12 = ((jnk12 & !akt) | (ras & pi3k))
+map3k1 = (ras | pi3k | il1a)
+mkk4 = (map3k1 | tnfa | map3k7)
+ikk = map3k7
+ras = tgfa
+p38 = (map3k7 & mkk4)
+erk12 = (tgfa & mek12)
+pi3k = ((ras & (tgfa | tnfa)) | igf1)
+akt = (pi3k | igf1)
+igf1 = igf1
+il1a = il1a
+tgfa = tgfa
+tnfa = tnfa
+jnk12 = (map3k7 & map3k1 & (mkk4 | tnfa))
+ikb = (ikk | (tnfa & ikb & !p38))
+hsp27 = (p38 | (erk12 & map3k7))
+Fitness: 0.0248447 0.27924 0.065 Run: 1 Generation: 919
+
